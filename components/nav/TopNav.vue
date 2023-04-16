@@ -4,6 +4,7 @@
        <ul class="left-nav">
         <li><NuxtLink to="/">Strona domowa</NuxtLink></li>
         <li><NuxtLink to="/onas">O nas</NuxtLink></li>
+        <li><NuxtLink to="/customer">Customer</NuxtLink></li>
        </ul>
 
     </div>
