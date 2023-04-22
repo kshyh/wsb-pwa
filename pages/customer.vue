@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import TopNav from '../components/nav/TopNav.vue'
-import User from '../components/user/User.vue'
+import TopNav from '../components/Nav/TopNav.vue'
+import User from '../components/User/User.vue'
 import { Customer } from '../models/customer';
 export default {
     name: 'CustomerPage',

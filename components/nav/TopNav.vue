@@ -5,6 +5,9 @@
         <li><NuxtLink to="/">Strona domowa</NuxtLink></li>
         <li><NuxtLink to="/onas">O nas</NuxtLink></li>
         <li><NuxtLink to="/customer">Customer</NuxtLink></li>
+        <li><NuxtLink to="/gallery">Galeria</NuxtLink></li>
+        <li><NuxtLink to="/cars">Cars</NuxtLink></li>
+        <li><NuxtLink to="/nasa">Nasa</NuxtLink></li>
        </ul>
 
     </div>
@@ -17,9 +20,9 @@
 .nav {
     width: 100%;
     display: flex;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid rgb(255, 255, 255);
     box-shadow: 0px 3px 3px grey;
-    background-color: blue;
+    background-color: rgb(110, 110, 110);
 }
 
 .left-nav {

@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import TopNav from '../components/nav/TopNav.vue'
-import BigImage from '../components/gallery/bigImage.vue'
+import TopNav from '../components/Nav/TopNav.vue'
+import BigImage from '../components/Gallery/bigImage.vue'
 export default {
   name: 'OnasPage',
   components: { TopNav, BigImage},
