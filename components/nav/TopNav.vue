@@ -1,6 +1,5 @@
 <template>
     <div class="nav">
-
        <ul class="left-nav">
         <li><NuxtLink to="/">Strona domowa</NuxtLink></li>
         <li><NuxtLink to="/onas">O nas</NuxtLink></li>
@@ -9,7 +8,6 @@
         <li><NuxtLink to="/cars">Cars</NuxtLink></li>
         <li><NuxtLink to="/nasa">Nasa</NuxtLink></li>
        </ul>
-
     </div>
 </template>
 

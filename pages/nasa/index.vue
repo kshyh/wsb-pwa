@@ -1,6 +1,5 @@
 <template>
     <div>
-      <TopNav />
       <div class="container">
         <h1>Nasa - {{ currentCollection }}</h1>
         <div class="search">
@@ -29,12 +28,10 @@
     </div>
 </template>
 <script>
-import TopNav from '../../components/Nav/TopNav.vue';
 import axios from 'axios';
 
 export default {
   name: 'index',
-  components: { TopNav},
 
   created() {
     this.fetchData('sun')

@@ -1,17 +1,15 @@
 <template>
     <div>
-        <TopNav />
         <User :name="personJa.name" :salary="personJa.salary" :age="personJa.age" />
     </div>
 </template>
 
 <script>
-import TopNav from '../components/Nav/TopNav.vue'
 import User from '../components/User/User.vue'
 import { Customer } from '../models/customer';
 export default {
     name: 'CustomerPage',
-    components: { TopNav, User },
+    components: { User },
     data() {
       return {
         personJa: null,
