@@ -99,40 +99,6 @@
   </script>
 
   <style scoped>
-  .modal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
-    margin: 0px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 2px 8px 3px;
-    transition: all 0.2s ease-in;
-    font-family: Helvetica, Arial, sans-serif;
-  }
-
-  .modal-content {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background: #00000094;
-    z-index: 999;
-    transition: opacity 0.2s ease;
-  }
-
   .thumbs {
     display: flex;
     flex-direction: row;
@@ -149,18 +115,6 @@
   }
   .thumbs img:hover {
     border: 1px solid black;
-  }
-
-  .image img {
-    max-width: 80%;
-  }
-
-  .image {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 300px;
-    height: 350px;
   }
 
   .iconButton {
