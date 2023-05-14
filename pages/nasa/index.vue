@@ -13,16 +13,11 @@
                 v-if="index === 0"
                 :data-index="index"
                 :src="link.href"
+                @click="showModal(link.href)"
                 style="width: 100px; height: 100px; object-fit: cover; padding: 5px;"
                />
             </template>
           </template>
-          <!-- <img 
-            v-for="(value, index) in dataArr"
-            :src="value.links[0].href"
-            :key="index"
-            style="width: 100px; height: 100px; object-fit: cover; padding: 5px;"
-           /> -->
         </div>
       </div>
     </div>
@@ -60,7 +55,12 @@ export default {
         .catch(error => {
           console.log(error)
         })
-    }
+    },
+
+    showModal(imageUrl) {
+      console.log(imageUrl);
+      this.$nuxt.$emit('showBigImageModal', imageUrl);
+    },
   }
 }</script>
 <style scoped>
